@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "NSubstituteFSharpWrapper", "NSubstituteFSharpWrapper\NSubstituteFSharpWrapper.fsproj", "{60CE11FD-AB9A-491F-969D-AC475CB622E8}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "NSubstituteFSharpWrapper.Tests", "NSubstituteFSharpWrapper.Tests\NSubstituteFSharpWrapper.Tests.fsproj", "{AC1E8FA8-8E58-4687-9FD5-31EBB69AE0A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{60CE11FD-AB9A-491F-969D-AC475CB622E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60CE11FD-AB9A-491F-969D-AC475CB622E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60CE11FD-AB9A-491F-969D-AC475CB622E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC1E8FA8-8E58-4687-9FD5-31EBB69AE0A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC1E8FA8-8E58-4687-9FD5-31EBB69AE0A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC1E8FA8-8E58-4687-9FD5-31EBB69AE0A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC1E8FA8-8E58-4687-9FD5-31EBB69AE0A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
