@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Compile Include="MockTests.fs" />
-    <Compile Include="Program.fs" />
   </ItemGroup>
 
   <ItemGroup>
