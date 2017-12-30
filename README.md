@@ -2,7 +2,13 @@
 
 Travis master: [![Build Status](https://travis-ci.org/Offline24/NSubstituteFSharpWrapper.svg?branch=master)](https://travis-ci.org/Offline24/NSubstituteFSharpWrapper) develop: [![Build Status](https://travis-ci.org/Offline24/NSubstituteFSharpWrapper.svg?branch=develop)](https://travis-ci.org/Offline24/NSubstituteFSharpWrapper)
 
+## Description
+
 Provides simple F# syntax for NSubstitute.
+
+## Instalation
+
+Avaiable on nuget: [NSubstituteFSharpWrapper](https://www.nuget.org/packages/NSubstituteFSharpWrapper/)
 
 ## Usage examples
 
