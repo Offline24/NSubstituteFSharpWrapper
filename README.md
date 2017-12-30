@@ -22,6 +22,10 @@ open NSubstituteFSharpWrapper
 let mock = mock<MyInterface> ()
 ```
 
+```fsharp
+let systemUnderTest = new system mock.Object
+```
+
 ### Mocking field value
 
 ```fsharp
