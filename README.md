@@ -6,7 +6,7 @@ Travis master: [![Build Status](https://travis-ci.org/Offline24/NSubstituteFShar
 
 Provides simple F# syntax for NSubstitute.
 
-## Instalation
+## Installation
 
 Avaiable on nuget: [NSubstituteFSharpWrapper](https://www.nuget.org/packages/NSubstituteFSharpWrapper/)
 
