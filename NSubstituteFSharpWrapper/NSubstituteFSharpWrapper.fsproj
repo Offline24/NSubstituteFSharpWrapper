@@ -2,6 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+
+    <PackageId>NSubstituteFSharpWrapper</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Offline24</Authors>
+    <Description>Provides simple F# syntax for NSubstitute</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance >
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <Copyright>Copyright 2017</Copyright>
+    <PackageTags>F# mock mocking</PackageTags>
+    <PackageProjectUrl>https://github.com/Offline24/NSubstituteFSharpWrapper</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/Offline24/NSubstituteFSharpWrapper</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
