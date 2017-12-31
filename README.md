@@ -23,22 +23,24 @@ mock |> arrange (fun x -> x.IntField) |> returns 1
 ### Mocking function return value
 
 ```fsharp
-mock |> arrange (fun x -> x.AddFunction any any) |> returns 1
+mock |> arrange (fun x -> x.AddFunction arg.any arg.any) |> returns 1
 ```
 
 ```fsharp
-mock |> arrange (fun x -> x.AddFunction (is 1) (is 2)) |> returns 3
-mock |> arrange (fun x -> x.AddFunction any any) |> returns 5
+mock |> arrange (fun x -> x.AddFunction (arg.is 1) (arg.is 2)) |> returns 3
+mock |> arrange (fun x -> x.AddFunction arg.any arg.any) |> returns 5
+```
+
+```fsharp
+mock |> arrange (fun x -> x.AddFunction arg.any (arg.match' (fun arg -> arg > 2))) |> returns 3
 ```
 
 ### Checking function calls
 
 ```fsharp
-mock |> receivedAnyTimes (fun x -> x.AddFunction (is 1) (is 2))
+mock |> check (fun x -> x.AddFunction (arg.is 1) (arg.is 2)) |> wasCalledAtLeastOnce
 ```
 
 ```fsharp
-mock |> receivedTimes 4 |> (fun x -> x.AddFunction any any)
-//OR
-mock |> received 4 times |> (fun x -> x.AddFunction any any)
+mock |> check (fun x -> x.AddFunction arg.any arg.any) |> wasCalled 5 times
 ```
