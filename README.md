@@ -1,6 +1,4 @@
-# NSubstitute FSharp Wrapper
-
-Travis master: [![Build Status](https://travis-ci.org/Offline24/NSubstituteFSharpWrapper.svg?branch=master)](https://travis-ci.org/Offline24/NSubstituteFSharpWrapper) develop: [![Build Status](https://travis-ci.org/Offline24/NSubstituteFSharpWrapper.svg?branch=develop)](https://travis-ci.org/Offline24/NSubstituteFSharpWrapper)
+# NSubstitute FSharp Wrapper [![Build status](https://ci.appveyor.com/api/projects/status/ts96dq8i1sjyvagq/branch/master?svg=true)](https://ci.appveyor.com/project/Offline24/nsubstitutefsharpwrapper/branch/master)
 
 ## Description
 
