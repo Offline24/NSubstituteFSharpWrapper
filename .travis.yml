@@ -5,5 +5,5 @@ dotnet: 2.0.0
 
 script:
  - dotnet restore
- - dotnet build
- - dotnet test NSubstituteFSharpWrapper.Tests/NSubstituteFSharpWrapper.Tests.fsproj
+ - dotnet build -f netstandard1.6 NSubstituteFSharpWrapper/NSubstituteFSharpWrapper.fsproj
+ - dotnet test -f netcoreapp2.0 NSubstituteFSharpWrapper.Tests/NSubstituteFSharpWrapper.Tests.fsproj

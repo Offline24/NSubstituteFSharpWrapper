@@ -5,7 +5,6 @@ open NSubstitute
 open NSubstituteFSharpWrapper
 open Xunit
 open FsUnit.Xunit
-open System.Net.Http
 open System.Threading.Tasks
 
 type TestModel = { 
