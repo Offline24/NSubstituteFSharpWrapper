@@ -1,5 +1,7 @@
 # NSubstitute FSharp Wrapper [![Build status](https://ci.appveyor.com/api/projects/status/ts96dq8i1sjyvagq/branch/master?svg=true)](https://ci.appveyor.com/project/Offline24/nsubstitutefsharpwrapper/branch/master)
 
+**Legacy and is no longer maintained.**
+
 ## Description
 
 Provides simple F# syntax for NSubstitute.
